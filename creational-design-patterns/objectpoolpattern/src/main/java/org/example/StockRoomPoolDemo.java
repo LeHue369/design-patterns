@@ -34,13 +34,16 @@ public class StockRoomPoolDemo {
 
 		StockRoom secondObject = demo.pool.borrowObject();
 
-		demo.printIntanceId(firstObject);
+		demo.printIntanceId(secondObject);
 
 		demo.printPoolSize(demo);
 
 		demo.pool.returnObject(firstObject);
 
 		demo.printPoolSize(demo);
+
+
+
 	}
 
 }
